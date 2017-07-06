@@ -1,31 +1,26 @@
-<% include scripts.ejs %>
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="stylesheets/style.css">
 
-<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">China Palace</a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Appetizers <span class="sr-only">(current)</span></a></li>
-                <li><a href="../pages/seafood.ejs">Seafood</a></li>
-                <li><a href="../pages/chicken.ejs">Chicken</a></li>
-                <li><a href="../pages/pork.ejs">Pork</a></li>
-                <li><a href="../pages/beef.ejs">Beef</a></li>
-                <li><a href="../pages/rice.ejs">Rice</a></li>
-                <li><a href="../pages/noodles.ejs">Noodles</a></li>
-                <li><a href="../pages/family.ejs">Family Dinners</a></li>
-                <li><a href="../pages/drinks.ejs">Drinks and Desserts</a></li>
-            </ul>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-</nav>
+<div class="nav">
+    <ul class="nav nav-tabs nav-justified">
+        <li><a href="/">Home</a></li>
+        <li><a href="/appetizers">Appetizers</a></li>
+        <li><a href="/soup">Soup</a></li>
+        <li><a href="/seafood">Seafood</a></li>
+        <li><a href="/chicken">Chicken</a></li>
+        <li><a href="/pork">Pork</a></li>
+        <li><a href="/beef">Beef</a></li>
+        <li><a href="/vegetables">Vegetables</a></li>
+        <li><a href="/clay">Clay Pots</a></li>
+        <li><a href="/rice">Fried Rice</a></li>
+        <li><a href="/chow">Chow Mein</a></li>
+        <li><a href="/lunch">Lunch Specials</a></li>
+        <li><a href="/combo">Combination Plates</a></li>
+        <li><a href="/family">Family Dinners</a></li>
+        <li><a href="/chifam">Chinese Family Dinners</a></li>
+        <li><a href="/drinks">Drinks</a></li>
+        <% include footer.ejs %>
+    </ul>
+</div>
